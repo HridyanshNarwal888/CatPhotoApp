@@ -50,15 +50,15 @@
             <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy" style="mix-blend-mode: difference;">Lazy</label>
             <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic" style="mix-blend-mode: difference;">Energetic</label>
           </fieldset>
-          <input type="email" name="email" placeholder="Email Address" required> <br>
+          <input type="email" name="email" placeholder="Email Address" style="mix-blend-mode: difference;" required> <br>
           <!-- <input type="text" name="catphotourl" placeholder="cat photo URL" required> -->
-          <input type="file" name="attachment" accept="image/png, image/jpeg">
+          <input type="file" name="attachment" accept="image/png, image/jpeg" >
           <input type="hidden" name="_next" value="https://freecatphotoapp.com/submit-cat-photo">
           <input type="hidden" name="_subject" value="New submission!">
           <input type="text" name="_honey" style="display:none">
           <input type="hidden" name="_autoresponse" value="Hey There, I got your submission successfully and here is a copy of it for you. Thank you for using our services">
           <input type="hidden" name="_template" value="table">
-          <button type="submit">Submit</button>
+          <button type="submit" style="mix-blend-mode: difference;" >Submit</button>
         </form>
       </section>
 
@@ -89,6 +89,9 @@
 @font-face {
   font-family: xyz;
   src: url(font.otf);
+}
+input, button {
+  color: black;
 }
 </style>
 </html>
