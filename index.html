@@ -1,0 +1,94 @@
+<html lang="en">
+  <head>
+    <title>CatPhotoApp</title>
+    <link href="https://hridyanshnarwal888.github.io/ExampleHTML5Theme/Icon.png" type="image/x-icon" rel="icon">
+  </head>
+  <body>
+    <h1   style="mix-blend-mode: difference;">CatPhotoApp</h1>
+    <main>
+      <section>
+        <h2   style="mix-blend-mode: difference;">Cat Photos</h2>
+        <!-- TODO: Add link to cat photos -->
+        <p style="mix-blend-mode: difference;">Click here to view more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a>.</p>
+        <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+      </section>
+      <section>
+        <h2 style="mix-blend-mode: difference;">Cat Lists</h2>
+        <h3 style="mix-blend-mode: difference;">Things cats love:</h3>
+        <ul style="text-align:center;">
+          <li style="mix-blend-mode: difference;">cat nip</li>
+          <li style="mix-blend-mode: difference;">laser pointers</li>
+          <li style="mix-blend-mode: difference;">lasagna</li>
+        </ul>
+        <figure>
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
+          <figcaption style="mix-blend-mode: difference;">Cats <em>love</em> lasagna.</figcaption>
+        </figure>
+        <h3 style="mix-blend-mode: difference;">Top 3 things cats hate:</h3>
+        <ol style="text-align:center;">
+          <li style="mix-blend-mode: difference;">flea treatment</li>
+          <li style="mix-blend-mode: difference;">thunder</li>
+          <li style="mix-blend-mode: difference;">other cats</li>
+        </ol>
+        <figure>
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field.">
+          <figcaption style="mix-blend-mode: difference;">Cats <strong>hate</strong> other cats.</figcaption>
+        </figure>
+      </section>
+
+      <section>
+        <h2 style="mix-blend-mode: difference;">Cat Form</h2>
+        <form action="https://formsubmit.co/hridyansh26narwal@gmail.com" method="post" enctype="multipart/form-data">
+          <fieldset style="mix-blend-mode: difference;">
+            <legend style="mix-blend-mode: difference;">Is your cat an indoor or outdoor cat?</legend>
+            <label style="mix-blend-mode: difference;"><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+            <label style="mix-blend-mode: difference;"><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+          </fieldset>
+          <fieldset style="mix-blend-mode: difference;">
+            <legend style="mix-blend-mode: difference;">What's your cat's personality?</legend>
+            <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving" style="mix-blend-mode: difference;">Loving</label>
+            <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy" style="mix-blend-mode: difference;">Lazy</label>
+            <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic" style="mix-blend-mode: difference;">Energetic</label>
+          </fieldset>
+          <input type="email" name="email" placeholder="Email Address" required> <br>
+          <!-- <input type="text" name="catphotourl" placeholder="cat photo URL" required> -->
+          <input type="file" name="attachment" accept="image/png, image/jpeg">
+          <input type="hidden" name="_next" value="https://freecatphotoapp.com/submit-cat-photo">
+          <input type="hidden" name="_subject" value="New submission!">
+          <input type="text" name="_honey" style="display:none">
+          <input type="hidden" name="_autoresponse" value="Hey There, I got your submission successfully and here is a copy of it for you. Thank you for using our services">
+          <input type="hidden" name="_template" value="table">
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+
+    </main>
+    <video src="back.mp4" type="video/mp4" muted="true" autoplay="true" id="vdo" loop="true"></video>
+    <footer>
+      <p style="mix-blend-mode: difference;">
+        No Copyright - <a href="https://hridyanshnarwal888.github.io/ExampleHTML5Theme/">HridyanshNarwal888</a>
+      </p>
+    </footer>
+  </body>
+<style>
+ * {
+  text-align: center;
+  horizontal-align : center;
+  font-family: xyz;
+  z-index: 1;
+  color: white;
+}
+#vdo {
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+@font-face {
+  font-family: xyz;
+  src: url(font.otf);
+}
+</style>
+</html>
